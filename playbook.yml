@@ -5,7 +5,7 @@
   tasks:
     - name: Copy WAR file to Tomcat
       copy:
-        src: "/var/snap/jenkins/4853/workspace/likkiapp/target/likkiapp.war"
+        src: "/var/snap/jenkins/4865/workspace/likkiapp/target/likkiapp.war"
         dest: "/opt/tomcat/webapps/likkiapp.war"
         remote_src: no
 
